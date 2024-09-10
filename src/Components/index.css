@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=SUSE:wght@100..800&display=swap');
+
+*{
+     padding: 0px;
+     margin: 0px;
+}
+
+html,body{
+     height: 100%;
+}
+
+
+
+body{
+     background-color: #252525;
+     color: #fff;
+     min-height: 100%;
+     display: flex;
+     flex-direction: column;
+
+}
+
+
+.Navbar{
+     display: flex;
+     position: fixed;
+     width: 100%;
+     margin: 0;
+     height: 60px;
+     justify-content:space-between;
+     z-index: 10;
+     background: #333;
+
+}
+
+.Nav-Pen-Icon{
+     margin-right: 10px;
+}
+
+.Chat-Box-Nav-Name{
+     font-family: "Poppins", sans-serif;
+     font-weight: 600;
+     font-style: normal;
+     font-size: 30px;
+     margin-left: 20px;
+}
+.Navbar{
+     padding:0% 0 1.5% 0;
+     display: flex;
+     align-items: center;
+}
+
+.SearchContainer{
+     margin-top: 17%;
+     display: flex;
+     justify-content: center;
+     padding: 0 0 15px 0;
+}
+
+.SearchBox{
+     padding: 1.5% 35% 1.5% 1.2%;
+     border: solid black 2px;
+     border-radius: 40px;
+     background: #E7EAEF;
+
+}
+
+.SearchBox input{
+     border: transparent;
+     background: #E7EAEF;
+
+}
+
+input:focus{
+     outline: none;
+}
+
+
+/* .SearchContainer{
+     border-top: solid rgb(255, 255, 255) 1.2px;
+}   */
+
+.Chat-Index{
+     height: 94%;
+     overflow: auto;
+}
+
+.Chat_Img{
+     height: 14%;
+     width: 14%;
+}
+.Chat_Img img{
+     height: 100%;
+     width: 100%;
+     border-radius: 50%;
+}
+
+
+.Chat-Element{
+     display: flex;
+     align-items: center;
+     padding: 1.5% 0 1.5% 2%;
+     border-bottom:solid rgb(255, 255, 255) 1.2px;
+
+}
+
+.Chat_Item{
+     margin-left: 5%;
+     display: flex;
+     flex-direction: column;
+     
+}
+
+.Chat_Name{
+     font-size: 20px;
+     font-weight: 600;
+     font-family: "Poppins", "sans-serif";
+}
+
+.Chat_Message_Recived {
+     background: #27a313;
+     height: 25px; 
+     width: 25px;  
+     display: flex;
+     justify-content: center;
+     align-items: center; 
+     border-radius: 50%;
+     margin-left: 45%;  
+ }
+
+ .Footer-Container {
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+     background-color: #333; /* You can adjust the color */
+     z-index: 10; /* Ensures it stays on top */
+}
+
+.Footer_Elements {
+     display: flex;
+     justify-content: space-around;
+     padding: 10px 0;
+}
+
+.Footer_Element_Chats, .Footer_Element_Contact, .Footer_Element_Settings{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.Footer_p{
+
+     font-size: 15px;
+     font-family: "Poppins", sans-serif;
+     font-weight: 300;
+     font-style: normal;
+     z-index: 5;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
